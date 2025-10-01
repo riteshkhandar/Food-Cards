@@ -1,0 +1,39 @@
+/* Navbar container */
+.Navbar {
+  background-color: #ff4500; /* a slightly softer orangered */
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-evenly; /* center links horizontally */
+  align-items: center;
+  gap: 30px; /* spacing between links */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Links inside navbar */
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for links */
+.Navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* subtle highlight */
+  color: #ffd700; /* gold text on hover */
+  transform: scale(1.1); /* slight grow effect */
+}
+
+/* Active link styling */
+.Navbar a.active {
+  background-color: white;
+  color: #ff4500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
