@@ -13,20 +13,20 @@ const App = () => {
   return (
     <BrowserRouter>
       <nav className='Navbar'>
-        <Link to="/Pizzas">Pizzas</Link> 
+        <Link to="/">Fries</Link> 
         <Link to="/Burgers">Burgers</Link>
         <Link to="/Pastas">Pastas</Link> 
-        <Link to="/Fries">Fries</Link>
+        <Link to="/Pizzas">Pizzas</Link>
       </nav>
      
     
 
       {/* Routes */}
       <Routes>
-        <Route path="/Pizzas" element={<Pizzas />} />
+        <Route path="/" element={<Fries />} />
         <Route path="/Burgers" element={<Burgers />} />
         <Route path="/Pastas" element={<Pastas />} />
-        <Route path="/Fries" element={<Fries />} />
+        <Route path="/Pizzas" element={<Pizzas />} />
        
       </Routes>
     </BrowserRouter>
