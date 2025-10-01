@@ -27,7 +27,6 @@ const App = () => {
         <Route path="/Burgers" element={<Burgers />} />
         <Route path="/Pastas" element={<Pastas />} />
         <Route path="/Pizzas" element={<Pizzas />} />
-       
       </Routes>
     </BrowserRouter>
   );

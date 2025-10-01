@@ -1,12 +1,12 @@
 /* Navbar container */
 .Navbar {
-  background-color: #ff4500; /* a slightly softer orangered */
+  background-color: #ff4500; 
   padding: 15px 0;
   display: flex;
   height: 40px;
-  justify-content: space-evenly; /* center links horizontally */
+  justify-content: space-evenly; 
   align-items: center;
-  gap: 30px; /* spacing between links */
+  gap: 30px; 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
@@ -19,17 +19,17 @@
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
-  border-radius: 6px;
+  font-size: 20px;
+  border-radius: 2px;
   transition: all 0.3s ease;
   
 }
 
 /* Hover effect for links */
 .Navbar a:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* subtle highlight */
-  color: #ffd700; /* gold text on hover */
-  transform: scale(1.1); /* slight grow effect */
+  background-color: rgba(255, 255, 255, 0.2); 
+  color: #ffd700; 
+  transform: scale(1.2); 
 }
 
 /* Active link styling */
